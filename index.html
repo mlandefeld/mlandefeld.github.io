@@ -3,23 +3,31 @@
 	<head>
 		<meta charset = "UTF-8">
 		<title>Margaret Landefeld</title>
-		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-        <header>
-            <!--Side bar header with phone number and email sticy on the left side-->
-            <h1>Margaret Landefeld, Software Engineer</h1>
+        <div class="container">
+            <header>
+                <!--Side bar header with phone number and email sticy on the left side-->
+                <h1>Margaret Landefeld, Software Engineer</h1>
+                
+            </header>
+        </div>
+        <div>
             <nav>
-                <ul>
-                    <li>Contact</li>
-                    <!--Dropdown to see phone # and email address-->
-                    <li>About</li><!--link to part of page with this info, will scroll down to part of page-->
-                    <li>Portfolio</li>
-                    <li>Resume</li>
-                </ul>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="/contact.html">Contact</a></li>
+                            <li class="menu-dropdown">216.392.3323</li>
+                            <li class="menu-dropdown">mlandefeld@gmail.com</li>
+                        <li><a href="/about.html">About</a></li><!--link to part of page with this info, will scroll down to part of page-->
+                        <li><a href="/portfolio.html">Portfolio</a></li>
+                        <li><a href="/resume.html">Resume</a></li>
+                    </ul>
+                </div>
             </nav>
-        </header>
-
+        </div>
         <p>Skills:</p>
         <ul>
             <li>C#</li>
