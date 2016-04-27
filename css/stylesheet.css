@@ -4,7 +4,8 @@ margin-left: 160px;
 }
 header{
     font-family: 'Raleway', sans-serif;
-    color: #50706D;
+    color: #373C3F;
+    padding-left: 200px;
 }
 ul{
     list-style-type: none;
@@ -24,16 +25,15 @@ a:hover{
 li{
     margin-top: 5px;
 }
-ul li:before {
-    content: "\00BB";
-    margin-right: 5px;
-}
 ul li:after{
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+.dropdown{
+    margin-top: 50px;
 }
 .dropdown ul{
     position: relative;
@@ -65,4 +65,11 @@ nav{
     height:100%;
     background-color: aqua;
 
+}
+.skills-list{
+    margin-left: 200px;
+}
+.glyphicon{
+    font-size: 12px;
+    padding-right: 4px;
 }

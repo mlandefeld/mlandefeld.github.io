@@ -1,13 +1,16 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset = "UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Margaret Landefeld</title>
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	</head>
 	<body>
-        <div class="container">
+        <div>
             <header>
                 <!--Side bar header with phone number and email sticy on the left side-->
                 <h1>Margaret Landefeld, Software Engineer</h1>
@@ -18,7 +21,7 @@
             <nav>
                 <div class="dropdown">
                     <ul>
-                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/contact.html"><span class="glyphicon glyphicon-menu-right"></span>Contact</a></li>
                             <li class="menu-dropdown">216.392.3323</li>
                             <li class="menu-dropdown">mlandefeld@gmail.com</li>
                         <li><a href="/about.html">About</a></li><!--link to part of page with this info, will scroll down to part of page-->
@@ -28,21 +31,28 @@
                 </div>
             </nav>
         </div>
-        <p>Skills:</p>
-        <ul>
-            <li>C#</li>
-            <li>ASP.NET</li>
-            <li>SQL</li>
-            <li>PHP</li>
-            <li>MVC</li>
-            <li>HTML</li>
-            <li>SASS/CSS</li>
-        </ul>
+        
+        <div class="skills-list">
+            <p>Skills:</p>
+            <ul>
+                <li>C#</li>
+                <li>ASP.NET</li>
+                <li>SQL</li>
+                <li>PHP</li>
+                <li>MVC</li>
+                <li>HTML</li>
+                <li>SASS/CSS</li>
+            </ul>
+        </div>
+        
         <!--Have a slider for screenshots of pictures from website in adition to links and link to github repository to view coded-->
         <h2>Work Portfolio</h2>
         <p>Link to task website</p>
         <p>Link to C# website</p>
         <p>Link to photography website</p>
         <p>Show resume on page and have link to download pdf.</p>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	</body>
 </html>
