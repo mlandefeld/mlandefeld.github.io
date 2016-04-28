@@ -1,7 +1,18 @@
-.nav-wrapper{
+.cs-code .container{
+    padding-left:230px;
+}
+nav .nav-wrapper{
+    background-color:#00BCD4;
+    color:#727272;
+    z-index: 1000;
+}
+nav .brand-logo{
+    color:#212121;
+    padding-left:20px;
+}
+.side-nav{
     background-color:#00BCD4;
     color:#212121;
-}
-.nav{
-    z-index:100;
+    width: 230px;
+    
 }
