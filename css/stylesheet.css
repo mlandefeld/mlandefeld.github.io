@@ -14,5 +14,13 @@ nav .brand-logo{
     background-color:#00BCD4;
     color:#212121;
     width: 230px;
-    
+    border: 1px solid #00BCD4;
+}
+.cs-code{
+    padding-left: 50px;
+}
+.collapsible-body p{
+    padding: 0px;
+    margin: 0px;
+    background-color: #B2EBF2;
 }
