@@ -6,32 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Margaret Landefeld</title>
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+       
 	</head>
 	<body>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Margaret Landefeld</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+                    <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+                </ul>
+            </div>
+        </nav>
         <div>
-            <header>
-                <!--Side bar header with phone number and email sticy on the left side-->
-                <h1>Margaret Landefeld, Software Engineer</h1>
-                
-            </header>
+            <div class="my-side-nav">
+                <ul>
+                    <li><a href="/contact.html">Contact</a></li>
+                        <li class="menu-dropdown">216.392.3323</li>
+                        <li class="menu-dropdown">mlandefeld@gmail.com</li>
+                    <li><a href="/about.html">About</a></li><!--link to part of page with this info, will scroll down to part of page-->
+                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <nav>
-                <div class="dropdown">
-                    <ul>
-                        <li><a href="/contact.html"><span class="glyphicon glyphicon-menu-right"></span>Contact</a></li>
-                            <li class="menu-dropdown">216.392.3323</li>
-                            <li class="menu-dropdown">mlandefeld@gmail.com</li>
-                        <li><a href="/about.html">About</a></li><!--link to part of page with this info, will scroll down to part of page-->
-                        <li><a href="/portfolio.html">Portfolio</a></li>
-                        <li><a href="/resume.html">Resume</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        
+        <!--background image of code snip. Really cool if have gif of typing code in visual studio for each project-->
+        <img class="cspic" src="~/css/CSCode.jpg" alt="C Sharp screenshot"/>
+
         <div class="skills-list">
             <p>Skills:</p>
             <ul>
@@ -44,15 +49,16 @@
                 <li>SASS/CSS</li>
             </ul>
         </div>
-        
-        <!--Have a slider for screenshots of pictures from website in adition to links and link to github repository to view coded-->
-        <h2>Work Portfolio</h2>
-        <p>Link to task website</p>
-        <p>Link to C# website</p>
-        <p>Link to photography website</p>
-        <p>Show resume on page and have link to download pdf.</p>
-
+        <div class="container">
+            <!--Have a slider for screenshots of pictures from website in adition to links and link to github repository to view coded-->
+            <h2>Work Portfolio</h2>
+            <p>Link to task website</p>
+            <p>Link to C# website</p>
+            <p>Link to photography website</p>
+            <p>Show resume on page and have link to download pdf.</p>
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
 	</body>
 </html>
