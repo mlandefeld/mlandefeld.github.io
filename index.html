@@ -27,7 +27,7 @@
             </nav>
             <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a></div>
             <ul id="nav-mobile" class="side-nav fixed collapsible" data-collapsible="accordion" style="transform: translateX(0%);" bold"="">
-                <li class="bold"><a href="#" class="waves-effect waves-light">Margaret Landefeld</a></li>
+                <li class="bold"><a href="#" class="waves-effect waves-light" style="color: #ffffff; font-size:large;">Software Engineer</a></li>
                 <li>
                     <div class="collapsible-header waves-effect waves-light lighten-2"><i class="material-icons">contact_phone</i>Contact</div>
                     <div class="collapsible-body"><p>216.392.3323</p></div>
@@ -39,8 +39,9 @@
                 </li>
                 <li>
                     <div class="collapsible-header waves-effect waves-light lighten-2"><i class="material-icons">list</i>Resume Snapshot</div>
-                    <div class="collapsible-body">
-                        <p>BA from Case Western Reserve University</p>
+                    <div class="resume-snap collapsible-body" style="font-size: 14px;">
+                        <p>2015 - Present: We Can Code IT, Software Engineering Bootcamp</p>
+                        <p>2015: BA in Anthropology, Case Western Reserve University</p>
                         <!--<p>Seeking Software Engineering Position</p> -->
                         <div class="skills-list">
                             <p>Skills:</p>
@@ -60,10 +61,10 @@
             <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 
         </header>
-        <div class="slider">
+        <div class="fullscreen slider">
             <ul class="slides">
                 <li>
-                    <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                    <img src="http://lorempixel.com/250/250/nature/1"> <!-- random image -->
                     <div class="caption center-align">
                         <h3>This is our big Tagline!</h3>
                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -93,9 +94,21 @@
             </ul>
         </div>
         <div class="container">
+            <div class="parallax-container">
+                <div class="parallax"><img src="http://lorempixel.com/580/250/nature/4"></div>
+            </div>
+            <div class="section white">
+                <div class="row container">
+                    <h2 class="header">Parallax</h2>
+                    <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+                </div>
+            </div>
+            <div class="parallax-container">
+                <div class="parallax"><img src="images/parallax2.jpg"></div>
+            </div>
             <!--background image of code snip. Really cool if have gif of typing code in visual studio for each project-->
-            <img class="cs-code z-depth-2" src="images/CSCode.jpg" alt="C Sharp screenshot" style="margin-top: 20px;" />
-            <img class="cs-code z-depth-2" src="images/cs-portfolio.jpg" alt="C Sharp screenshot" style="margin-top: 20px;" />
+            <!--<img class="cs-code z-depth-2" src="images/CSCode.jpg" alt="C Sharp screenshot" style="margin-top: 20px;" />
+            <img class="cs-code z-depth-2" src="images/cs-portfolio.jpg" alt="C Sharp screenshot" style="margin-top: 20px;" />-->
 
             <!--
             <div class="container">
@@ -107,6 +120,12 @@
                 <p>Show resume on page and have link to download pdf.</p>
             </div>
             -->
+        </div>
+        <div class="container carousel-slider">
+            <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
+            <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
+            <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+            <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
         </div>
          
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -121,6 +140,19 @@
             $(document).ready(function () {
                 $('.slider').slider({ full_width: true });
             });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('.carousel').carousel();
+            });
+        </script>
+        <script>
+            // Next slide
+            $('.carousel').carousel('next');
+            $('.carousel').carousel('next', [3]); // Move next n times.
+            // Previous slide
+            $('.carousel').carousel('prev');
+            $('.carousel').carousel('prev', [4]); // Move prev n times.
 
         </script>
 	</body>

@@ -13,8 +13,17 @@ nav .brand-logo{
 .side-nav{
     background-color:#00BCD4;
     color:#212121;
-    width: 230px;
+    width: 70px;
     border: 1px solid #00BCD4;
+
+}
+.side-nav:hover{
+    opacity: 1;
+transition: opacity 5s ease-in;
+-moz-transition: opacity 5s ease-in;
+-webkit-transition: opacity 5s ease-in;
+-o-transition: opacity 5s ease-in;
+    width: 230px;
 }
 .cs-code{
     padding-left: 50px;
@@ -23,4 +32,11 @@ nav .brand-logo{
     padding: 0px;
     margin: 0px;
     background-color: #B2EBF2;
+    padding-left:32px;
+}
+.side-nav li{
+    line-height:35px;
+}
+.resume-snap{
+    line-height: 25px;
 }
