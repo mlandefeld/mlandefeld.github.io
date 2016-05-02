@@ -11,19 +11,26 @@ nav .brand-logo{
     padding-left:20px;
 }
 .side-nav{
+    text-align:left;
+    margin-left:-10px;
     background-color:#00BCD4;
     color:#212121;
-    width: 70px;
+    width: 80px;
     border: 1px solid #00BCD4;
-
+     transition: width 0.13s ease-in;
+    -moz-transition: width 0.13s ease-in;
+    -webkit-transition: width 0.13s ease-in;
+    -o-transition: width 0.13s ease-in;
 }
 .side-nav:hover{
     opacity: 1;
-transition: opacity 5s ease-in;
--moz-transition: opacity 5s ease-in;
--webkit-transition: opacity 5s ease-in;
--o-transition: opacity 5s ease-in;
     width: 230px;
+}
+.side-nav span{
+    display:none;
+}
+.side-nav:hover span{
+    display:block;
 }
 .cs-code{
     padding-left: 50px;
