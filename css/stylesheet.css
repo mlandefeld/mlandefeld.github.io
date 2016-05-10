@@ -1,3 +1,15 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.page-footer .footer{
+    height: 150px;
+}
 .cs-code .container{
     padding-left:230px;
 }
@@ -46,4 +58,7 @@ nav .brand-logo{
 }
 .resume-snap{
     line-height: 25px;
+}
+.row{
+    margin-top: 700px;
 }
