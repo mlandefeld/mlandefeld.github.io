@@ -9,7 +9,8 @@ var browserSync = require('browser-sync').create();
 gulp.task('sass', function () {
   return gulp.src('./sass/**/*.scss')
     .pipe(sass.sync().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./css'))
+    .pipe(browserSync.stream());
 });
 
 // Static Server + watching scss/html files
@@ -22,3 +23,5 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("sass/**/*.scss", ['sass']);
     gulp.watch("./*.html").on('change', browserSync.reload);
 });
+
+gulp.task('default', ['serve']);

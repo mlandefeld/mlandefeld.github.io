@@ -3,21 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^4.2.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.14.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mlandefeld/mlandefeld.github.io.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/mlandefeld/mlandefeld.github.io/issues"
   },
